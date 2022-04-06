@@ -1,13 +1,13 @@
-$body-color: red;
 $color: steelblue;
-
-body {
-    color: $body-color;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 
 #cookie-consent {
     border: 1px solid #4682b4;
+    width: 90%;
     border-radius: 0.5rem;
     bottom: 1rem;
     padding: 1rem;
@@ -15,6 +15,9 @@ body {
     transform: none;
     transition: .35s ease-in-out;
     margin: 0 90px;
+    color: $color;
+    z-index: 10000;
+    background: aliceblue;
 
 &.hide {
      transform: translateY(calc(100% + 1rem));

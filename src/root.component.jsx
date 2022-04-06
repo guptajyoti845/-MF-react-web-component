@@ -13,9 +13,6 @@ export default function Root(props) {
       <h2 id="cookie-consent-label" className="m-0 mb-1">
         This website uses cookies
       </h2>
-      <p id="cookie-consent-desc" className="m-0 mb-1">
-        consent cookies
-      </p>
       <div className="m-0 mb-1">
         <label className="flex align-center">
           <input type="checkbox" id="cookie-consent-no-sell" />
